@@ -1,0 +1,162 @@
+﻿* {
+    font-family: Helvetica;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    margin: 0;
+}
+
+html,
+body {
+    font-size: 22px;
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 3.14rem;
+}
+
+/*Header*/
+.header-container {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 3.14rem;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.header-container img {
+    height: 2.27rem;
+    padding-left: 0.46rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-right: 0.46rem;
+}
+
+ul li {
+    font-family: Helvetica;
+    padding-left: 1.25rem;
+}
+
+/*Banner*/
+
+.banner-container {
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1d0uocq*_ga*Nzk1NjIxODIyMC4xNjU4NDkzMzEy*_ga_3LRZM6TM9L*MTY1OTAxNjc3Ni4xOS4xLjE2NTkwMTY4MjUuMTE.");
+    width: 54.55rem;
+    margin: 0 auto;
+    height: 31.82rem;
+    display: flex;
+    align-items: center;
+}
+
+.mission-banner-cta {
+    opacity: revert;
+    text-align: center;
+    width: inherit;
+}
+
+.mission-banner-cta h2,
+.mission-banner-cta h4 {
+    padding: 0.5rem 0;
+}
+
+/*Featured Tea*/
+
+.featured-container {
+    width: 45.45rem;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.featured-title-cta {
+    text-align: center;
+}
+
+.featured-title-cta h2 {
+    padding-bottom: 0.5rem;
+}
+
+.featured-title-cta h4 {
+    padding: 0.5rem 0 0.7rem
+}
+
+.featured-figure-cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+figure {
+    padding: 0.3rem 0.75rem;
+}
+
+figure img {
+    height: 9.1rem;
+    width: 13.63rem;
+}
+
+figcaption {
+    margin-top: 0.45rem;
+    font-weight: 600;
+}
+
+/*Locations*/
+
+.locations-container {
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1yxugqw*_ga*Nzk1NjIxODIyMC4xNjU4NDkzMzEy*_ga_3LRZM6TM9L*MTY1OTAxNjc3Ni4xOS4xLjE2NTkwMTY4MjUuMTE.");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 54.55rem;
+    margin: 0 auto;
+    height: 22.73rem;
+    padding-top: 3.25rem;
+}
+
+.locations-title-cta {
+    text-align: center;
+    background-color: transparent;
+}
+
+.locations-title-cta h2 {
+    background-color: transparent;
+    font-weight: 800;
+}
+
+.locations-add-cta {
+    display: flex;
+    margin-top: 0.68rem;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.address-container {
+    text-align: center;
+    line-height: 3.15rem;
+    width: 13.64rem;
+    margin: 0 0.91rem;
+    opacity: 1;
+}
+
+/*Footers*/
+
+.contact-container {
+    height: 9.1rem;
+    text-align: center;
+    line-height: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-container h2 {
+    padding-bottom: 0.75rem;
+}
+
+.footer-container {
+    padding: 0 0 1.25rem 0.91rem;
+}
